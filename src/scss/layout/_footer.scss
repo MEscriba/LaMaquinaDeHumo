@@ -1,0 +1,17 @@
+@use 'base/variables' as v;
+
+ 
+footer {
+        
+    background-color: v.$rosa;
+    margin:0;
+    text-align: right;
+    padding: 1rem;
+    width: 100%;
+    color: v.$blanco;
+    font-size: 1.6rem;
+
+    span {
+        font-size: 1.2rem;
+    }
+}   

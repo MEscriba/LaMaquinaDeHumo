@@ -1,0 +1,27 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.contacto {
+    padding: 5rem;
+   
+    h3 {
+        text-align: center;
+        color: v.$blanco;
+    }
+
+    p {
+        font-size: 2rem;
+        
+    }
+    
+    .instagram {
+        
+        text-decoration: none;
+        display: flex;
+        color: v.$negro;
+        max-width: 2rem;
+    }
+
+    }
+    
+    

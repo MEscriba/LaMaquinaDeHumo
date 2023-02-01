@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Máquina de Humo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>La Máquina de Humo</h1>
+
+            <nav class="navegacion-principal">
+                <a href="#nosotros">Quienes son estos pibes?</a>
+                <a href="#temas">Nuestros temas</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+
+        </div>
+       
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>La Máquina de Humo</h2>
+                <p>Rock-Punk Alternativo</p>
+            </div>
+        </div>
+
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    
+    </div>
+
+    <section id="nosotros" class="contenedor sobre-lamaquina">
+        <div class="imagen">
+            <picture>
+                <source srcset="build/img/lamaquinadehumo.avif" type="image/avif">
+                <source srcset="build/img/lamaquinadehumo.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="build/img/lamaquinadehumo.jpg" alt="imagen de la maquina de humo">
+            </picture>
+            
+        </div>
+
+        <div class="contenido-lamaquina">
+            <h2>La Máquina de Humo</h2>
+            <p class="estilo">Rock-Punk con un poquito de humo</p>
+            <p>Les juramos que cuando no nos escucha nadie sonamos bien!!!... <br>
+                La musica es para todos! y les queremos compartir un poquito de lo nuestro!!!
+            </p>
+
+        </div>
+    </section>
+
+    <section id="temas" class="temas">
+        <h3>Nuestros Temas</h3>
+
+        <p class="letras">Letras</p>
+
+        <div class="letras-contenedor contenedor">
+            <div class="letra rock bg-amarillo">
+                <p class="nombre-tema">No Va Lejos</p>
+                <p class="letra-tema">NO SE PORQUE SE FUE <br>
+                    NO SE PORQUE VOLVIO<br>
+                    PERO NO VA LEJOS<br>
+                    <br>
+                    NO SE POR QUE SUBIO<br>
+                    NO SE PORQUE BAJO<br>
+                    PERO NO VA LEJOS<br>
+                    <br>
+                    SIEMPRE YENDO MARCHA ATRAS<br>
+                    EN CONTRA DE LOS DEMAS<br>
+                    NUNCA MIRANDO EL RELOJ<br>
+                    NO VA LEJOS<br>
+                    <br>
+                    NO SE QUIEN LO EMPUJO<br>
+                    NO SE COMO LLEGO<br>
+                    PERO NO VA LEJOS<br>
+                    <br>
+                    NO SE QUIEN SE PENSO<br>
+                    NO SE QUE SE CREYO<br>
+                    PERO NO VA LEJOS<br>
+                    <br>
+                    TAL VEZ ALGUNA VEZ<br>
+                    ALGUIEN LO QUISO DE VERDAD<br>
+                    SU RESPUESTA NUNCA ES DAR<br>
+                    NO VA LEJOS<br>
+                    <br>
+                    NO SE A CUANTOS CAGO<br>
+                    NO SE COMO PAGO<br>
+                    PERO NO VA LEJOS<br>
+                    <br>
+                    TENIENDOLO TODO QUIERE MAS<br>
+                    SU CODICIA ES SU MANJAR<br>
+                    NADIE LO PODRA SALVAR<br>
+                    NO VA A IR LEJOS NO<br>
+                    </p>
+            </div> <!--aca termina letra-->
+
+            <div class="letra edm bg-verde">
+                <p class="nombre-tema">Gente Berreta</p>
+                <p class="letra-tema">OTRO DIA DE SOL <br>
+                    ATRAPADO EN LA CIUDAD<br>
+                    UNA INMENSA PARED <br>
+                    QUE NO TE DEJA AVANZAR<br>
+                    <br>
+                    ENTRE AUTOS MUY CAROS <br>
+                    Y GENTE MUY BERRETA<br>
+                    SON SILUETAS ESCONDIDAS<br>
+                    DETRÁS DE UNA ETIQUETA<br>
+                    <br> 
+                    ESTOY CANSADO DE ESPERAR<br>
+                    QUE SE CAIGAN LAS CARETAS<br>
+                    DE ESTE MUNDO ARTIFICIAL,<br>
+                    DE ESTA ENORME VIDRIERA<br>
+                    <br>
+                    OTRO DOMINGO MAS<br>
+                    BAJO EL ZOOM DE LA CIUDAD<br>
+                    UNA INTENSA LUPA QUE<br>
+                    DERRITE LAS MISERIAS<br>
+                    <br>
+                    ESTOY CANSADO DE ESPERAR<br>
+                    QUE SE CAIGAN LAS CARETAS<br>
+                    DE ESTE MUNDO ARTIFICIAL,<br>
+                    DE ESTA ENORME VIDRIERA<br>
+                    <br>
+                    OTRA MALA FICCION <br>
+                    QUE SE ANUNCIA EN CARTELERA<br>
+                    OTRO HEROE DE MENTIRA <br>
+                    OTRA PUESTA EN ESCENA<br>
+                    </p>
+            </div> <!--aca termina letra-->
+        </div><!--aca termina letras-contenedor -->
+    </section>
+    
+    <section class="galeria contenedor">
+        <h3>La casa no se reservo el derecho de admision!</h3>
+
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+    <section id="contacto" class="contacto bg-verde">
+        <h3>Vamos por la birra nomá</h3>
+        <p>Para que nos invitan si saben como nos ponemos!?... <br>
+        Pero igual no dejen de hacerlo... ponganse en contacto con nosotros por el ig y ahi estaremos!</p>
+        <a class="instagram" href="https://www.instagram.com/lamaquinadehumooficial/">
+        <img src="build/img/instagram.png" alt="instagram">lamaquinadehumooficial</a>
+               
+    </section>
+    <footer>La Máquina de Humo. <span>Todos los derechos reservados.</span></footer>
+    <script src="build/js/app.js"></script>
+</body>
+</html>
