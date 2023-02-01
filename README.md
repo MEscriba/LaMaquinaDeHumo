@@ -8,7 +8,7 @@ Proyecto personal realizado con HTML-SASS-GULP-JAVASCRIPT Y DEPLOYADO EN NETLIFY
 
 
 
-:airplane:  ---> https://quiet-dodol-fc72b3.netlify.app <---- entra ahi para ver como quedo!!!! 
+:airplane:  ---> [https://joyful-crisp-f5c003.netlify.app/] <---- entra ahi para ver como quedo!!!! 
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
