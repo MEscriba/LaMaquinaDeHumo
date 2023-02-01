@@ -13,5 +13,5 @@ Proyecto personal realizado con HTML-SASS-GULP-JAVASCRIPT Y DEPLOYADO EN NETLIFY
 ------------------------------------------------------------------------------------------------------------------------------------
 
 
-![Imagen del blog ](https://github.com/MEscriba/FrontEndStore/blob/main/img/captura.PNG)
+![Imagen del blog ](https://github.com/MEscriba/LaMaquinaDeHumo/blob/main/captura_pag_LMDH.PNG)
 
